@@ -1,2 +1,3 @@
 # Responsive-Portfolio
-Homework assignment 2 - Media Queries
+
+Homework assignment 2 - Media Queries version
