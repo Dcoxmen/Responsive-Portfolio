@@ -1,0 +1,257 @@
+/*BEGIN SELECTOR CSS*/
+body {
+  background-image: url("../images/light-grey-terrazzo.png");
+  color: #777777;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Georgia", Times, Times New Roman, serif;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+h2 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  font-size: 24px;
+  padding-left: 48px;
+}
+p {
+  text-align: justify;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+a:link,
+a:visited,
+a:hover {
+  color: #4aaaa5;
+}
+/*END SELECTOR CSS*/
+/*BEGIN CLASS CSS*/
+.headerWrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+.headerName {
+  border-radius: 20px;
+  background-color: #4aaaa5;
+  box-shadow: 6px 6px 10px #b3b1b1;
+  text-align: center;
+  width: 250px;
+  height: 46px;
+  padding: 20px;
+  margin: 0 0 0 25%;
+  float: left;
+}
+.headerLinks {
+  background-color: #ffffff;
+  height: 46px;
+  padding: 30px 125px 10px 0;
+  text-align: right;
+}
+.headerSpace {
+  clear: both;
+  border-top: 4px solid #ffffff;
+  width: 100%;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.imageWrapper {
+  text-align: left;
+}
+.info {
+  padding: 16px 1px;
+}
+.portfolio_name {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  position: relative;
+  top: -70px;
+  padding: 10px 10px;
+  text-align: center;
+}
+.icons {
+  margin: 0% 0% 0% 6%;
+}
+.icon-btn {
+  transform: scale(1);
+  transition: 0.3s;
+  box-shadow: 6px 6px 10px #b3b1b1;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.icon-btn:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.footer {
+  clear: both;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  background-color: #666666;
+  width: 100%;
+  margin: 0;
+  padding: 20px 10px 10px 10px;
+  border-top: 8px solid #4aaaa5;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 190px 190px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  font-size: 18px;
+  text-align: center;
+}
+
+.main-bio,
+.contact-info,
+.bio-image {
+  float: left;
+  box-shadow: 6px 6px 10px #b3b1b1;
+  border-radius: 30px;
+}
+.main-bio {
+  margin-top: 20px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  opacity: 0.8;
+  padding: 10px 20px;
+  width: 60%;
+}
+.contact-info {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  opacity: 0.7;
+  padding: 10px 10px;
+}
+.bio-image {
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+}
+a {
+  color: #4aaaa5;
+}
+/*END CLASS CSS*/
+/*BEGIN CONTACT ME FORM CSS*/
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 7px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/*END CONTACT ME FORM CSS*/
+
+/*MEDIA QUERIES USED TO DESIGN*/
+
+/* Desktop size: 980px */
+@media only screen and (max-width: 980px) {
+  .headerName {
+    margin: 0% 0% 5% 0%;
+  }
+  .headerLinks {
+    width: 100%;
+    margin: 0% 2% 2% 0%;
+    text-align: center;
+  }
+  .main-bio {
+    width: 48%;
+    margin-bottom: 20%;
+  }
+  .contact-info {
+    width: 34%;
+  }
+}
+
+/* Tablet size: 768px */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .headerName {
+    margin: 0% 2% 5% 0%;
+  }
+  .headerLinks {
+    width: 100%;
+    margin: 0% 2% 2% 0%;
+    text-align: center;
+  }
+  .contact-info {
+    margin-bottom: 20%;
+  }
+}
+
+/* Phones size: 640px */
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 640px;
+  }
+  .headerName {
+    clear: both;
+    margin: 0% 2% 5% 0%;
+  }
+  .headerLinks {
+    width: 100%;
+    margin: 0% 2% 2% 0%;
+    text-align: center;
+  }
+  .contact-info {
+    margin-bottom: 20%;
+  }
+  .grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 190px;
+  }
+}
