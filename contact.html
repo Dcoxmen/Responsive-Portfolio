@@ -26,43 +26,28 @@
     <!-- END HEADER -->
     <!--BEGIN MAIN CONTAINER 960PX WIDE -->
     <div class="container">
-        <!--BEGIN MAIN BIO HOLDS MY STORY CONTENT -->
+        <!--BEGIN MAIN BIO CONTAINS CONTACT FORM -->
         <div class="main-bio">
-            <div class="imageWrapper">
-                <h2>My Story</h2>
-                <hr>
-                <img src="assets/images/Davehdrawing.jpg" alt="Name" class="bio-image">
-            </div>
+            <h2>Contact Me</h2>
+            <hr>
+            <form action="action_page.php">
 
-            <p>Began coding in 1994 as a flash developer. Submerged me in the coding culture and learned the trade
-                while working in the
-                industry. Started working as a freelance web developer in 1997 to the present. Started Daventertainment
-                Inc
-                in 2009. Incorporated in 2016.</p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <p> Technologies I enjoy are HTML5, CSS3, PHP, JQuery, Javascript, Adobe Suites, Git and gitbash, MySQL,
-                Postgres,
-                Audio, Video Editing and
-                Sound Design. Specialty in strong clean design and database integration. Attended Orange Coast college
-                to study
-                music and
-                found programming through synthesizers.
-                An enthusiastic Web developer with a demonstrated history of ability and eagerness to learn.
-                A team player with leadership skills. I love what I do in an industry that has endless potential.
-                Currently under contract
-                with Worldwide Express
-                as a Junior Full-Stack developer. Currently updating Full-Stack skill set and getting certification by
-                attending a
-                UC Irvine coding boot camp Oct 16, 2018 - April 27, 2019.
-                Code 2 Create. Programming 4 Progress.</p>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <p>On weekends you can find me spinning an eclectic variety of musical jams onboard luxury
-                party yachts in Newport Beach and Marina Del Rey for Hornblower Cruises and Events. For more info go
-                to reservations at
-                <a href="https://www.hornblower.com/home/nb" target="_blank">Hornblower.com</a></p>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:116px"></textarea>
 
+                <input type="submit" value="Submit">
+
+            </form>
         </div>
-        <!--END MAIN BIO MY STORY CONTENT -->
+        <!--END MAIN BIO CONTACT FORM -->
         <!--BEGIN MY CONEXIONES SIDE BAR LINKS  -->
         <div class="contact-info">
             <div class="info">
